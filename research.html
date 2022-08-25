@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<title>Josh Buli | Research | UCR Mathematics Department</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" target="_self" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="CV.html" target="_self" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CURRICULUM VITAE</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESEARCH</a>
+    <a href="publications.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PUBLICATIONS</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">TEACHING <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="ucr.html" class="w3-bar-item w3-button">UNIVERSITY OF CALIFORNIA, RIVERSIDE</a>
+        <a href="chaffey.html" class="w3-bar-item w3-button">CHAFFEY COLLEGE</a>
+        <a href="buffalo.html" class="w3-bar-item w3-button">UNIVERSITY AT BUFFALO</a>
+      </div>
+    </div>
+    <a href="http://www.google.com/search" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="CV.html" class="w3-bar-item w3-button w3-padding-large">CURRICULUM VITAE</a>
+  <a href="research.html" class="w3-bar-item w3-button w3-padding-large">RESEARCH</a>
+  <a href="publications.html" class="w3-bar-item w3-button w3-padding-large">PUBLICATIONS</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">TEACHING</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <<!-- Research Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="research">
+    <h2 class="w3-wide">RESEARCH</h2>
+    <h3 class="w3-justify"> Research Interests</h3>
+    <p class="w3-justify"> My general research interest is in the design and application of computationally efficient numerical methods for partial differential equations and stochastic partial differential equations. Some specific methods and applications include:</p>
+    <ul>
+       <li class="w3-justify">Discontinuous Galerkin (DG) and local discontinuous Galerkin (LDG) methods
+       <li class="w3-justify">DG method applied to hyperbolic flows on networks
+       <li class="w3-justify">Intrusive and non-intrusive methods for stochastic partial differential equations: Monte-Carlo, multi-level Monte Carlo (MLMC), generalized polynomial Chaos (gPC), stochastic collocation methods
+       <li class="w3-justify">Algorithms for delay differential equations arising in traffic conngestion problems 
+       <li class="w3-justify">Multi-phase flow models for blood clots
+    </ul>
+  </div>
+
+
+
+	<style>
+	* {
+  		box-sizing: border-box;
+	}
+
+	.row {
+  		display: flex;
+	}
+	/* Create two equal columns that sits next to each other */
+	.column {
+		flex: 50%;
+  		padding: 10px;
+  		height: 300px; /* Should be removed. Only for demonstration */
+	}
+	</style>
+<div id="imagesRes" class="item w3-black w3-center">
+	<h2 class="w3-wide ">FIGURES</h2>
+    <div class="row">
+		<div class="w3-col">
+    		<h2>Buli and Xing (2018)</h2>
+	    		<img src="images/eta_LDG.svg" class="img-responsive center-block " width="425" height="250" alt=""/>
+					<figcaption>Figure 1. - Traveling wave solution for the BBM system.</figcaption>
+				<br/>
+	        	<img src="images/eta1_LDG.svg" class="img-responsive center-block" width="425" height="250" alt=""/>
+					<figcaption>Figure 2. - Traveling wave solution for the BBM system.</figcaption>
+				<video width="325" height="500" controls>
+  					<source src="images/wave_collision.mp4" type="video/mp4">
+  					Your browser does not support HTML5 video.
+				</video>
+				<figcaption>Movie 1. - Solitary Wave Collision.</figcaption>
+				<br/>
+				<br/>
+		</div>
+  		<div class="w3-col">
+    		<h2>Arnott and Buli (2018)</h2>
+        		<img src="images/vel.svg" class="img-responsive center-block" width="425" height="250" alt=""/>
+				<figcaption>Figure 3. - Solution of a delay differential equation in heavy traffic congestion.</figcaption>
+				<br/>
+				<img src="images/uc.svg" class="img-responsive center-block" width="425" height="250" alt=""/>
+				<figcaption>Figure 4. - User-cost as a function of the number of commuters derived from the bathtub model of traffic congestion.</figcaption>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<img src="images/entry_fffp_log.jpg" class="img-responsive center-block" width="375" height="200" alt=""/>
+				<figcaption>Figure 5. - Discontinuous entry rates in the bathtub model.</figcaption>
+    			<br/>
+				<br/> 
+  		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<title>Josh Buli | Research | UCR Mathematics Department</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" target="_self" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="CV.html" target="_self" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CURRICULUM VITAE</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESEARCH</a>
+    <a href="publications.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PUBLICATIONS</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">TEACHING <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="ucr.html" class="w3-bar-item w3-button">UNIVERSITY OF CALIFORNIA, RIVERSIDE</a>
+        <a href="chaffey.html" class="w3-bar-item w3-button">CHAFFEY COLLEGE</a>
+        <a href="buffalo.html" class="w3-bar-item w3-button">UNIVERSITY AT BUFFALO</a>
+      </div>
+    </div>
+    <a href="http://www.google.com/search" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="CV.html" class="w3-bar-item w3-button w3-padding-large">CURRICULUM VITAE</a>
+  <a href="research.html" class="w3-bar-item w3-button w3-padding-large">RESEARCH</a>
+  <a href="publications.html" class="w3-bar-item w3-button w3-padding-large">PUBLICATIONS</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">TEACHING</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+	<!-- Summary Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="research">
+    <h2 class="w3-wide">EMBOLIZATION AND ANEURYSM PROJECT RESULTS</h2>
+    <h3 class="w3-justify"> ANEURYSM PROJECT </h3>
+    <p class="w3-justify"> The following files are for the cases where we use the inflow velocity function uin = sin|&pi;(t-0.5)| for various cases of maximum velocity at the inlet. The parameters for specific simulations are given next to the link to the video:</p>
+    <ul>
+       <li class="w3-justify">Sinusoidal inlet velocity, max velocity = 15 cm/s: &emsp;&emsp; <a href="simulations/aneurysm_geometry_NavierStokes_sine_nondimen_v1_11232018.mp4">Simulation 1</a>
+       <li class="w3-justify">Sinusoidal inlet velocity, max velocity = 100 cm/s: &emsp;&emsp; <a href="simulations/aneurysm_geometry_NavierStokes_sine_nondimen_v2_11232018.mp4">Simulation 2</a>
+       <li class="w3-justify">Sinusoidal inlet velocity, max velocity = 57.5 cm/s: &emsp;&emsp; <a href="simulations/aneurysm_geometry_NavierStokes_sine_nondimen_v3_11232018.mp4">Simulation 3</a>
+    </ul>
+    <p class="w3-justify"> The following files are for the cases where we use the generic pulsatile flow function (where a Fourier series is fitted to the data points) for various cases of maximum velocity at the inlet. The parameters for specific simulations are given next to the link to the video:</p>
+    <ul>
+       <li class="w3-justify">Pulsatile inlet velocity, max velocity = 57.5 cm/s: &emsp;&emsp; <a href="simulations/aneurysm_geometry_NavierStokes_pulse_nondimen_v4_11232018.mp4">Simulation 1</a>
+       <li class="w3-justify">Pulsatile inlet velocity, max velocity = 5.0 cm/s: &emsp;&emsp; <a href="simulations/aneurysm_geometry_NavierStokes_pulse_nondimen_v5_12042018.mp4">Simulation 2</a>
+       <li class="w3-justify">Pulsatile inlet velocity with streamlines, max velocity = 5.0 cm/s: &emsp;&emsp; <a href="simulations/aneurysm_geometry_NavierStokes_pulse_stream_nondimen_v5_12252018.mp4">Simulation 3</a> 
+       <li class="w3-justify">Inverted Pulsatile inlet velocity with streamlines, max velocity = 5.0 cm/s: &emsp;&emsp; <a href="simulations/aneurysm_geometry_NavierStokes_pulseInverse_stream_nondimen_12262018.mp4">Simulation 4</a>
+    </ul>
+    
+    
+    <h3 class="w3-justify"> EMBOLIZATION PROJECT </h3>
+    <p class="w3-justify"> The following files are for the cases where we fix permeability at 10<sup>-12</sup> m<sup>2</sup> and vary the attachment coefficient k<sub>n</sub>. The parameters for specific simulations are given next to the link to the video:</p>
+    <ul>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.0005: &emsp;&emsp; <a href="simulations/rectangle_geometry_v1_complete_10222018.mp4">Simulation 1</a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.0050: &emsp;&emsp; <a href="simulations/rectangle_geometry_control_complete_10222018.mp4">Simulation 2 (control) </a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.0100: &emsp;&emsp; <a href="simulations/rectangle_geometry_v2_complete_10222018.mp4">Simulation 3</a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.0500: &emsp;&emsp; <a href="simulations/rectangle_geometry_v3_complete_10222018.mp4">Simulation 4</a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.0750: &emsp;&emsp; <a href="simulations/rectangle_geometry_v4_complete_10222018.mp4">Simulation 5</a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.1000: &emsp;&emsp; <a href="simulations/rectangle_geometry_v5_complete_10222018.mp4">Simulation 6</a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.5000: &emsp;&emsp; <a href="simulations/rectangle_geometry_v6_complete_10152018.mp4">Simulation 7</a>
+    </ul>
+    <p class="w3-justify"> The following files are for the cases where we fix permeability at 10<sup>-11</sup> m<sup>2</sup> and vary the attachment coefficient k<sub>n</sub>. The parameters for specific simulations are given next to the link to the video:</p>
+    <ul>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.0005: &emsp;&emsp; <a href="simulations/rectangle_geometry_highperm_v1_complete_12112018.mp4">Simulation 1 </a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.0050: &emsp;&emsp; <a href="simulations/rectangle_geometry_highperm_control_complete_12112018.mp4">Simulation 2 (control) </a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.0100: &emsp;&emsp; <a href="simulations/rectangle_geometry_highperm_v2_complete_12112018.mp4">Simulation 3 </a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.0500: &emsp;&emsp; <a href="simulations/rectangle_geometry_highperm_v3_complete_12112018.mp4">Simulation 4 </a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.0750: &emsp;&emsp; <a href="simulations/rectangle_geometry_highperm_v4_complete_12112018.mp4">Simulation 5 </a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.1000: &emsp;&emsp; <a href="simulations/rectangle_geometry_highperm_v5_complete_12112018.mp4">Simulation 6 </a>
+       <li class="w3-justify">attachment coefficient k<sub>n</sub> = 0.5000: &emsp;&emsp; <a href="simulations/rectangle_geometry_highperm_v6_complete_12062018.mp4">Simulation 7</a>
+
+    </ul>
+    
+    
+  </div>
+
+  
+</div>
+
+
+
+
+
+
+
+</body>
